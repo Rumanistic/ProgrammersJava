@@ -1,10 +1,10 @@
 # [level 0] 날짜 비교하기 - 181838 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181838) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181838#qna) 
 
 ### 성능 요약
 
-메모리: 79.2 MB, 시간: 41.77 ms
+메모리: 68 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 05월 27일 18:23:29
+2024년 05월 27일 19:22:38
 
 ### 문제 설명
 

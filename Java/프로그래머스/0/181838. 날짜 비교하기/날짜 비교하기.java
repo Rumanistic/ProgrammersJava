@@ -1,7 +1,13 @@
-import java.util.*;
-import java.text.*;
+// import java.util.*;
+// import java.text.*;
 
 class Solution {
+    public int solution(int[] d1, int[] d2) {
+        return d1[0] <= d2[0] ? (d1[0] == d1[0] ? (d1[1] <= d2[1] ? (d1[1] == d2[1] ? (d1[2] <= d2[2] ? (d1[2] == d2[2] ? 0: 1) : 0) : 1) : 0) : 1) : 0;
+        
+    }
+}
+/*
     public int solution(int[] date1, int[] date2) {
         StringBuilder sbA = new StringBuilder();
         StringBuilder sbB = new StringBuilder();
@@ -23,5 +29,4 @@ class Solution {
         }
         
         return result;
-    }
-}
+*/
