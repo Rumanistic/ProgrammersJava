@@ -8,10 +8,10 @@ class Solution {
         int x3 = dots[line2[0]][0]; int y3 = dots[line2[0]][1];
         int x4 = dots[line2[1]][0]; int y4 = dots[line2[1]][1];
         
-        if(x1==x2 && x3==x4 && x1!=x3)
+        if(x1==x2 && x3==x4)
             return 1;
         
-        if(y1==y2 && y3==y4 && y1!=y3)
+        if(y1==y2 && y3==y4)
             return 1;
         
         if(Math.abs(y2-y1) * Math.abs(x4-x3)  == Math.abs(y4-y3) * Math.abs(x2-x1))
